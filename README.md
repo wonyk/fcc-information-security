@@ -10,4 +10,4 @@ All projects are MIT licenced.
 - Anonymous Messaging Board - Fancy another anonymous thread-like messaging board? Look no further, here it is. ([source](anonymous-messaging-board), [demo](https://freecodecamp-boilerplate-project-messageboard-3.glitch.me/))
 - Port Scanner - A simple command line interface which allows one to scan a range of port and return basic details. ([source](port-scanner), [demo](https://repl.it/@wonyk99/fcc-port-scanner#main.py))
 - SHA-1 Password Cracker - Basic bruteforcing application to crack a SHA-1 hash based on collisions created from commonly used passwords and salts. ([source](sha1-password-cracker), [demo](https://repl.it/@wonyk99/SHA-1-password-cracker#main.py))
-- Secure Multiplayer Game - Introducing GHOSTS 2.0: A simple multiplayer game built using socket.io and HTML Canvas. ([source](multiplayer-game), [demo](https://repl.it/@wonyk99/Real-Time-Multiplayer-Game))
+- Secure Multiplayer Game - Introducing GHOSTS 2.0: A simple multiplayer game built using socket.io and HTML Canvas. ([source](multiplayer-game), [demo](https://Real-Time-Multiplayer-Game.wonyk99.repl.co))
