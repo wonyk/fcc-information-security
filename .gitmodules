@@ -1,0 +1,9 @@
+[submodule "anonymous-messaging-board"]
+	path = anonymous-messaging-board
+	url = https://41dd5bd3-de78-48cf-ae2e-5caab2bd9277@api.glitch.com/git/freecodecamp-boilerplate-project-messageboard-3
+[submodule "stock-price-checker"]
+	path = stock-price-checker
+	url = https://41dd5bd3-de78-48cf-ae2e-5caab2bd9277@api.glitch.com/git/freecodecamp-boilerplate-project-stockchecker-1
+[submodule "multiplayer-game"]
+	path = multiplayer-game
+	url = https://github.com/wonyk/multiplayer-game.git
