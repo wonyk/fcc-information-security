@@ -1,0 +1,75 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body {
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+  color: #fdf9f6;
+  font-size: 80%;
+  background-color: #000000;
+}
+
+canvas {
+  border: 2px ridge #493ffe;
+  border-radius: 5px;
+  max-width: 640px;
+  max-height: 480px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 30px 15px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.left,
+.right {
+  text-align: center;
+  padding: 10px;
+}
+
+.yellow {
+  padding-top: 20px;
+  color: #c8ff00;
+}
+
+.red {
+  color: #ff0015;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .left,
+  .right {
+    width: 25vw;
+  }
+}
+
+@media (min-width: 1120px) {
+  body {
+    font-size: 100%;
+  }
+
+  .left,
+  .right {
+    width: 25vw;
+    padding: 20px;
+  }
+}
