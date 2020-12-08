@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Secure Real-Time Multiplayer Game</title>
+    <meta
+      name="description"
+      content="An example for the fCC InfoSec Secure Real-Time Multiplayer Game project"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../public/style.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <h1 class="red">GHOSTS 2.0</h1>
+        <p>Use WASD keys or Arrow keys to move your character</p>
+        <h2 class="yellow">Goal:</h2>
+        <p>
+          Try to capture as many
+          <img src="../public/img/pixel-pac-man-24x24.png" /> as possible
+        </p>
+      </div>
+
+      <canvas ref="game" id="game-window" width="640" height="480"> </canvas>
+
+      <div class="right">
+        <h2 id="score">Score:0</h2>
+        <br />
+        <h2 id="ranking">Loading..</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>
+        Made with <span class="red">love</span> by
+        <span class="yellow">@wonyk</span>
+      </p>
+    </div>
+  </body>
+  <script src="../public/game.mjs" type="module"></script>
+</html>
